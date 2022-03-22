@@ -1,0 +1,17 @@
+.title {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.main {
+  max-width: 1120px;
+  margin: 40px auto;
+}
+
+.accordion {
+  background: #e0ffff;
+  -webkit-box-shadow: 5px 4px 12px -6px rgba(0, 0, 0, 0.7);
+  box-shadow: 5px 4px 12px -6px rgba(0, 0, 0, 0.7);
+}

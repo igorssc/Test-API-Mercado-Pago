@@ -1,0 +1,50 @@
+.methodPayment {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.productDescription {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.formCheckout {
+  max-width: 1120px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.formCheckoutInput {
+  width: calc(50% - 10px);
+  padding: 7px 5px;
+}
+
+.formCheckoutInputExpirationMonth,
+.formCheckoutInputExpirationYear,
+.formCheckoutInputSecurityCode,
+.formCheckoutInputIssuer {
+  width: calc(25% - 15px);
+}
+
+.submit {
+  width: 300px;
+  padding: 15px 20px;
+  margin: 20px auto;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #800080;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 1rem;
+}
+
+.submit[disabled] {
+  cursor: not-allowed;
+}
+
+.submit:hover {
+  filter: brightness(1.2);
+}
