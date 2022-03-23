@@ -118,7 +118,7 @@ type processPaymentType = {
 
 export function useMercadoPago() {
   const mercadopago = useMercadopago.v2(
-    "TEST-e6d5baf0-f22f-4995-8236-d6091a2a0a3e",
+    String(process.env.NEXT_PUBLIC_MERCADO_PAGO_SAMPLE_PUBLIC_KEY),
     {
       locale: "en-US",
     }
