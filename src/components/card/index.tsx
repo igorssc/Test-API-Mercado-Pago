@@ -65,10 +65,7 @@ export const Card = () => {
             cardNumber.substring(0, 6)
           ).then((response) => {
             response.forEach((item) => {
-              if (
-                item.issuer.name == currentIssuer &&
-                item.payment_type_id == "credit_card"
-              ) {
+              if (item.payment_type_id == "credit_card") {
                 const installmentsFormated = item.payer_costs.map((cost) => {
                   return {
                     installments: cost.installments,
